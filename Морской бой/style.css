@@ -1,0 +1,38 @@
+.button-table-score, .button-new-game, .score-player-1, .score-player-2{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.player-1, .player-2{
+    background-color: rgba(17, 108, 150, 0.667);
+    display: inline-block;
+}
+.playground-zone{
+    margin-top: 50px;
+}
+.playground-zone button{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.player-2{
+    margin-left: 50px;
+}
+.text1{
+    display: inline-block;
+    margin-left: 270px;
+    margin-top: 100px; 
+}
+.text2{
+    display: inline-block;
+    margin-left: 580px;
+    margin-top: 100px; 
+}
+
+.score-player-1::before{
+    content: "Счёт Игрока 1: " ;
+}
+.score-player-2::before{
+    content: "Счёт Игрока 2: " ;
+}
